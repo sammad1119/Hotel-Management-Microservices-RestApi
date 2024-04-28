@@ -54,7 +54,23 @@ Postman is an application used for API development and testing. It provides a us
 6. intelij idea.
 7. vscode.
 8. Docker Desktop.
-   
+
+# Communication of mysql with app Commands
+
+1. step 1: create a docker image of mysql database with password and database name.
+docker run -p 3307:3306 --name mysqldb -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=test mysql:8.0.13
+2. step 2 do spring configuration
+-DMYSQL_USER=root -DMYSQL_PASSWORD=root -DMYSQL_PORT=3307
+3. step 3 application.properties
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc: mysql://${MYSQL_HOST: localhost}:${MYSQL_PORT: 3306}/test
+spring.datasource.username=${MYSQL_USER: root} spring.datasource.password=${MYSQL_PASSWORD: Ravi@1998}
+4. step 4-create docker network and connect mysql container with that
+docker network create spring-net
+docker network connect spring-net mysqldb
+5. steps 5-create docker image of app and connect with network, provide all the database details
+  docker run -p 9090:8080 --name springboot-mysql-docker --net spring-net-e MYSQL_HOST=mysqldb -e MYSQL_USER=root w-e MYSQL_PASSWORD=root-e MYSQL_PORT=3306  springboot-mysql-docker
+
 # ERD
 Erd diagram and workflow of the following Project.
 
