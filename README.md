@@ -48,4 +48,6 @@ MySQL is an open-source relational database management system (RDBMS) that is wi
 
 # ERD
 Erd diagram and workflow of the following Project.
+
+<br>
 <img src="Hotel%20Management%20ERD.png">
