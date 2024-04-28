@@ -39,13 +39,21 @@ MySQL is an open-source relational database management system (RDBMS) that is wi
 5. Scalability: MySQL is designed to scale from small, single-server deployments to large, distributed systems. It supports various replication and clustering techniques for high availability and scalability, including master-slave replication, multi-master replication, and sharding.
 6. Security: MySQL provides features for securing data and controlling access to the database, including user authentication, access control lists (ACLs), encryption, and auditing.
 7. Performance: MySQL is optimized for performance, with features such as indexing, query optimization, caching, and storage engine options (such as InnoDB, MyISAM, and Memory) to improve database performance and efficiency.
+
+# Postman
+
+Postman is an application used for API development and testing. It provides a user-friendly interface for creating, testing, and managing APIs. With Postman, developers can easily send requests to APIs, inspect responses, organize APIs into collections, and collaborate with team members. It supports various HTTP methods, authentication mechanisms, and environments, making it a versatile tool for API development workflows.
+
 # Tools and Technologies 
 
-1. Java,Maven (Spring, Springboot)
-2. Docker(File, image, Container, Compose,Docker Daemon , Docker Client, Docker hub, Deployment,Containerization)
-3. Rest Api(Crud, Rest template)
-4. MYSQL(Workbench,Communication,Connection)
-
+1. Java,Maven (Spring, Springboot).
+2. Docker(File, image, Container, Compose,Docker Daemon , Docker Client, Docker hub, Deployment,Containerization).
+3. Rest Api(Crud, Rest template).
+4. MYSQL(Workbench,Communication,Connection).
+5. postman(Api Testing and Managing).
+6. intelij idea
+7. vscode
+   
 # ERD
 Erd diagram and workflow of the following Project.
 
