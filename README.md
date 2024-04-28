@@ -51,8 +51,9 @@ Postman is an application used for API development and testing. It provides a us
 3. Rest Api(Crud, Rest template).
 4. MYSQL(Workbench,Communication,Connection).
 5. postman(Api Testing and Managing).
-6. intelij idea
-7. vscode
+6. intelij idea.
+7. vscode.
+8. Docker Desktop.
    
 # ERD
 Erd diagram and workflow of the following Project.
