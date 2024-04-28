@@ -56,9 +56,24 @@ Docker is a platform for developing, shipping, and running applications in conta
 <br>
 
 6. Docker Compose: A tool for defining and running multi-container Docker applications. Docker Compose uses a YAML file to define the services, networks, and volumes required by an application and simplifies the process of managing complex multi-container deployments.
+
+# Mysql 
+MySQL is an open-source relational database management system (RDBMS) that is widely used for building and managing databases in various applications. It is developed, distributed, and supported by Oracle Corporation.
+
+<br>
+<b> Key features of MySQL include:</b>
+
+1. Relational Database: MySQL is a relational database, which means it organizes data into tables consisting of rows and columns, with each row uniquely identified by a primary key.
+2. SQL Support: MySQL supports SQL (Structured Query Language), which is a standard language for interacting with relational databases. Users can perform operations such as querying data, inserting, updating, and deleting records using SQL commands.
+3. Data Integrity: MySQL provides mechanisms to enforce data integrity constraints, such as primary keys, foreign keys, unique constraints, and check constraints, ensuring the accuracy and consistency of data stored in the database.
+4. ACID Compliance: MySQL supports ACID (Atomicity, Consistency, Isolation, Durability) properties, which ensure that database transactions are executed reliably and securely, even in the presence of failures.
+5. Scalability: MySQL is designed to scale from small, single-server deployments to large, distributed systems. It supports various replication and clustering techniques for high availability and scalability, including master-slave replication, multi-master replication, and sharding.
+6. Security: MySQL provides features for securing data and controlling access to the database, including user authentication, access control lists (ACLs), encryption, and auditing.
+7. Performance: MySQL is optimized for performance, with features such as indexing, query optimization, caching, and storage engine options (such as InnoDB, MyISAM, and Memory) to improve database performance and efficiency.
 # Tools and Technologies 
 
 1. Java,Maven (Spring, Springboot)
 2. Docker(File, image, Container, Compose,Docker Daemon , Docker Client, Docker hub)
 3. Rest Api(Crud, Rest template)
+4. MYSQL(Workbench,Communication,Connection)
 
