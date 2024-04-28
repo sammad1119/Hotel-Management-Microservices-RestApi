@@ -42,7 +42,7 @@ MySQL is an open-source relational database management system (RDBMS) that is wi
 # Tools and Technologies 
 
 1. Java,Maven (Spring, Springboot)
-2. Docker(File, image, Container, Compose,Docker Daemon , Docker Client, Docker hub)
+2. Docker(File, image, Container, Compose,Docker Daemon , Docker Client, Docker hub, Deployment,Containerization)
 3. Rest Api(Crud, Rest template)
 4. MYSQL(Workbench,Communication,Connection)
 
