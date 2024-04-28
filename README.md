@@ -70,6 +70,7 @@ docker network create spring-net
 docker network connect spring-net mysqldb
 5. steps 5-create docker image of app and connect with network, provide all the database details
   docker run -p 9090:8080 --name springboot-mysql-docker --net spring-net-e MYSQL_HOST=mysqldb -e MYSQL_USER=root w-e MYSQL_PASSWORD=root-e MYSQL_PORT=3306  springboot-mysql-docker
+
 # ERD
 Erd diagram and workflow of the following Project.
 
