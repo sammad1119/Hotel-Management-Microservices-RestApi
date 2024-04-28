@@ -2,7 +2,7 @@
 
 Microservices architecture is an approach to software development where a large application is broken down into smaller, independent services that can be developed, deployed, and scaled individually.
 <br>
-Key characteristics of microservices include:
+<b> Key characteristics of microservices include:</b>
 <br>
 Decomposition: Breaking down an application into smaller, independently deployable services, each responsible for a specific aspect of the application's functionality.
 <br>
@@ -36,7 +36,7 @@ RESTful APIs are widely used in web development due to their simplicity, scalabi
 Docker is a platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient units that encapsulate all the necessary dependencies and configurations required to run an application. Docker provides tools and APIs to automate the process of creating, deploying, and managing containers, making it easier to build and deploy applications in a consistent and reproducible manner across different environments.
 <br>
 
-<b> Key components of Docker include:<b>
+<b> Key components of Docker include:</b>
 
 Docker Engine: The core runtime environment for containers. It runs on the host operating system and manages container lifecycle, including starting, stopping, and deleting containers.
 <br>
@@ -57,6 +57,6 @@ Docker Compose: A tool for defining and running multi-container Docker applicati
 # Tools and Technologies 
 
 1. Java,Maven (Spring, Springboot)
-2. Docker(File, image, Container, Compose)
-3. Rest Api(Crud, Rest template,)
+2. Docker(File, image, Container, Compose,Docker Daemon , Docker Client, Docker hub)
+3. Rest Api(Crud, Rest template)
 
