@@ -56,6 +56,7 @@ Docker Registry: A centralized repository for storing and sharing Docker images.
 Docker Compose: A tool for defining and running multi-container Docker applications. Docker Compose uses a YAML file to define the services, networks, and volumes required by an application and simplifies the process of managing complex multi-container deployments.
 # Tools and Technologies 
 
+1. Java,Maven (Spring, Springboot)
+2. Docker(File, image, Container, Compose)
+3. Rest Api(Crud, Rest template,)
 
-
-#
