@@ -77,3 +77,6 @@ MySQL is an open-source relational database management system (RDBMS) that is wi
 3. Rest Api(Crud, Rest template)
 4. MYSQL(Workbench,Communication,Connection)
 
+# ERD
+
+<img src="Hotel%20Management%20ERD.png">
